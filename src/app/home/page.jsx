@@ -59,7 +59,7 @@ function LinkIcon(props) {
   )
 }
 
-export const metadata = {
+const metadata = {
   title: 'Projects',
   description: 'Things I’ve made trying to put my dent in the universe.',
 }

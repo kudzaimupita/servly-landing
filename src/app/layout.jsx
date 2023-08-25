@@ -18,7 +18,7 @@ const monaSans = localFont({
   variable: '--font-mona-sans',
 })
 
-export const metadata = {
+const metadata = {
   title: 'Servly | Home',
   description:
     'Commit is a lightweight Git client you can open from anywhere any time you’re ready to commit your work with a single keyboard shortcut. It’s fast, beautiful, and completely unnecessary.',

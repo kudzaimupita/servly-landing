@@ -166,7 +166,7 @@ const metadata = {
   description: 'Things I’ve made trying to put my dent in the universe.',
 }
 const page = () => {
-  const [frequency, setFrequency] = useState(frequencies[0])
+  //   const [frequency, setFrequency] = useState(frequencies[0])
   return (
     <div className="grid  sm:grid-cols-1 lg:grid-cols-2">
       <div></div>
@@ -191,7 +191,7 @@ const page = () => {
                   business on the path to excellence. */}
                 </p>
                 <div className="mb-6 mt-4 flex justify-center">
-                  <RadioGroup
+                  {/* <RadioGroup
                     value={frequency}
                     onChange={setFrequency}
                     className="grid grid-cols-2 gap-x-1 rounded-full p-1 text-center text-xs font-semibold leading-5 ring-1 ring-inset ring-gray-200"
@@ -215,7 +215,7 @@ const page = () => {
                         <span>{option.label}</span>
                       </RadioGroup.Option>
                     ))}
-                  </RadioGroup>
+                  </RadioGroup> */}
                 </div>
                 <div className="isolate mx-auto mt-2 grid max-w-md grid-cols-1 gap-4 pr-3 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                   {tiers.map((tier) => (
